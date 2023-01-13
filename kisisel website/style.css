@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(arkaplan.jpg);
+    background-size: cover;
+}
+
+.kutu{
+    width: 500px;
+    background: #38598b;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: #fcf4d9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kutu img{
+    width: 300px;
+    border-radius: 45%;
+    cursor: pointer; 
+    transition: 1s; 
+    
+}
+.kutu img:hover{
+    transform: scale(0.9)
+}
+
+.kutu h1{
+    font-weight: 80;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.kutu h6{
+    font-weight: 40;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.kutu li{
+    margin: 25px;
+    list-style: none;
+    display: inline-block;
+
+
+}
+.kutu li a{
+    color: white;
+    font-size: 50px;
+    transition: all ease-in-out 500ms;
+}
+.kutu li a:hover{
+    color: black;
+}
